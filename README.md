@@ -51,7 +51,7 @@ My target audience for this project is potential clients/employers.
 #### Wireframes
 
 Home Page
-![alt text](https://github.com/cambboyle "Logo Title Text 1")
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/HomePage.png "Home Page Wireframe")
 
 #### Completed Project
 
