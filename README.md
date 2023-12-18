@@ -50,6 +50,9 @@ My target audience for this project is potential clients/employers.
 
 #### Wireframes
 
+Home Page
+![alt text](https://github.com/cambboyle "Logo Title Text 1")
+
 #### Completed Project
 
 ## DEPLOYMENT
