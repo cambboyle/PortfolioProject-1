@@ -1,16 +1,17 @@
+<!-- omit in toc -->
 Cameron's Portfolio
 ======
 
-## TABLE OF CONTENTS
-
-  - [OVERVIEW](#overview)
-  - [UX](#ux)
-      - [User Goals](#user-goals)
-  - [FEATURES](#features)
-  - [TECH](#tech)
-  - [PROJECT VISUALS](#project-visuals)
-  - [DEPLOYMENT](#deployment)
-  - [CREDITS](#credits)
+- [OVERVIEW](#overview)
+- [UX](#ux)
+    - [User Goals](#user-goals)
+- [FEATURES](#features)
+- [TECH](#tech)
+- [PROJECT VISUALS](#project-visuals)
+    - [Wireframes](#wireframes)
+    - [Completed Project](#completed-project)
+- [DEPLOYMENT](#deployment)
+- [CREDITS](#credits)
 
 ## OVERVIEW
 
@@ -26,10 +27,11 @@ Built using **HTML** and **CSS**.
 
 My target audience for this project is potential clients/employers.
 
-##### User Goals
+#### User Goals
 
 - Easy site navigation with large buttons, easy-to-read colours and fonts.
 - Locate completed projects
+- Be able to contact me directly from the site by email or by using the links in the footer to my social media accounts.
 
 ## FEATURES
 
@@ -40,11 +42,15 @@ My target audience for this project is potential clients/employers.
 - HTML
 - CSS
 - Github
--
+- Miro
 
 ## PROJECT VISUALS
 
 ----
+
+#### Wireframes
+
+#### Completed Project
 
 ## DEPLOYMENT
 
