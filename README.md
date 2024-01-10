@@ -11,6 +11,7 @@ Cameron's Portfolio
     - [Wireframes](#wireframes)
     - [Completed Project](#completed-project)
 - [DEPLOYMENT](#deployment)
+- [KNOWN BUGS](#known-bugs)
 - [CREDITS](#credits)
 
 ## OVERVIEW
@@ -59,6 +60,19 @@ Home Page
 
 ----
 
+## KNOWN BUGS
+
+----
+
 ## CREDITS
 
 ----
+
+
+icons - <https://fontawesome.com>
+
+extra notes and methods - <https://www.w3schools.com>
+
+bootstrap notes - <https://getbootstrap.com>
+
+material design for bootstrap - <https://mdbootstrap.com>
