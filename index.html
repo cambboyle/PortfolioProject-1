@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Cameron Boyle</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
     <!-- BS5 -->
@@ -58,7 +58,7 @@
             <!-- NAVMENU -->
             <ul class="nav navbar-nav navbar-right">
               <li class="nav-item px-1">
-                <a href="/index.html" class="nav-link active" aria-current="page">
+                <a href="/index.html" class="nav-link active"  aria-current="page">
                   HOME
                 </a>
               </li>
@@ -68,7 +68,7 @@
               <li class="nav-item px-1 dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="#"
+                  href="Projects.html"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -78,13 +78,13 @@
                   class="dropdown-menu dropdown-menu-end"
                   aria-labelledby="navbarDropdown"
                 >
-                  <li><a class="dropdown-item" href="#">Project 1</a></li>
+                  <li><a class="dropdown-item" href="Project1.html">Project 1</a></li>
                   <li><a class="dropdown-item" href="#">Project 2</a></li>
                   <li><a class="dropdown-item" href="#">Project 3</a></li>
                 </ul>
               </li>
               <li class="nav-item px-1">
-                <a href="#" class="nav-link"> CONTACT </a>
+                <a href="Contact.html" class="nav-link"> CONTACT </a>
               </li>
             </ul>
           </div>
@@ -92,12 +92,24 @@
       </div>
     </header>
     <!-- MAIN CONTENT -->
-    <div class="container-fluid" id="main">
+    <div class="container-fluid px-0" id="main" style="width: 100%">
       <section id="introduction">
-        <div class="">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-6 help">help</div> 
-            <div class="col-6 help">me</div> 
+            <div class="col-sm-12">
+              <div class="text-center text-box-intro shadow-sm p-3 mb-5 rounded">
+                <div class="row">
+                  <div class="col-md-12 border-bottom border-3 border-light py-4" style="font-weight: 500; font-size: 40px;">< Hello, my name is <strong>Cameron</strong> ></div>
+                  <div class="col-md-12 py-4 mx-4 intro-text" style="font-weight: 300; font-size: 20px;">
+                    Welcome to my portfolio, I'm a Front End Developer based in Cardiff, Wales. This is a hub for all of my <a class="text-light" href="Projects.html">projects</a> concerning web development.
+                    <br>
+                    <br>Feel free to <a class="text-light" href="Contact.html">contact</a> me to discuss my work, or our work,
+                    <br>
+                    <br>Want to know more <a class="text-light" href="AboutMe.html">about me</a>?
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -105,7 +117,7 @@
     <!--FOOTER-->
     <div id="footer" style="font: Monserrat; font-weight: 300; width: 100vw;">
       <!-- NAVBAR -->
-      <div class="container-fluid text-center text-white main-colour">
+      <div class="container-fluid text-center text-white main-colour px-0">
         <div class="row">
           <div class="col-sm-12">
             <div class="footer-navbar">
@@ -113,7 +125,7 @@
                 class="nav navbar-expand-sm justify-content-center border-bottom"
               >
                 <li class="nav-item">
-                  <a href="#" class="nav-link px-2 text-light"><u>Home</u></a>
+                  <a href="index.html" class="nav-link px-2 text-light"><u>Home</u></a>
                 </li>
                 <li class="nav-item">
                   <a href="/AboutMe.html" class="nav-link px-2 text-light"
@@ -121,12 +133,12 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link px-2 text-light"
+                  <a href="Projects.html" class="nav-link px-2 text-light"
                     ><u>Projects</u></a
                   >
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link px-2 text-light"
+                  <a href="Contact.html" class="nav-link px-2 text-light"
                     ><u>Contact</u></a
                   >
                 </li>

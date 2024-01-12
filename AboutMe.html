@@ -25,150 +25,150 @@
     ></script>
   </head>
   <!-- BODY -->
-
   <body>
     <!-- HEADER -->
-    <header class="fixed-top header-scrolled">
+    <header class="container-fluid" id="header">
       <!-- NAVBAR -->
-      <nav class="navbar fixed-top navbar-expand bg-dark navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"
-            ><img
-              class="img-fluid rounded-pill d-inline-block align-text-center"
-              src="/assets/images/cameronimage.jpg"
-              alt="Cameron Boyle"
-              style="width: 100px"
-            />
-          </a>
-          <h1>
-            <a
-              class="navbar-brand d-none d-sm-block"
-              href="index.html"
-              style="
-                font-family: 'Montserrat', sans-serif;
-                font-weight: 200;
-                font-size: 30px;
-              "
-            >
-              <strong>Cameron</strong> Boyle</a
-            >
-          </h1>
-          <!-- NAVMENU -->
-          <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item px-1">
-              <a href="/index.html" class="nav-link"> HOME </a>
-            </li>
-            <li class="nav-item px-1">
-              <a
-                href="/AboutMe.html"
-                class="nav-link text-center active"
-                aria-current="page"
-                >ABOUT ME</a
-              >
-            </li>
-            <li class="nav-item px-1 dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="/Projects.html"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                >PROJECTS</a
-              >
-              <ul
-                class="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdown"
-              >
-                <li><a class="dropdown-item" href="#">Project 1</a></li>
-                <li><a class="dropdown-item" href="#">Project 2</a></li>
-                <li><a class="dropdown-item" href="#">Project 3</a></li>
-              </ul>
-            </li>
-            <li class="nav-item px-1">
-              <a href="/Contact.html" class="nav-link"> CONTACT </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand main-colour navbar-dark px-4">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img
+                class="img-fluid rounded-pill d-inline-block align-text-center"
+                src="/assets/images/cameronimage.jpg"
+                alt="Cameron Boyle"
+                style="width: 100px"
+              />
+            </a>
+            <div style="justify-content: center;">
+              <h1>
+                <a
+                  class="navbar-brand d-none d-sm-block"
+                  href="index.html"
+                  style="
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 200;
+                    font-size: 30px;
+                  "
+                >
+                  <strong>Cameron</strong> Boyle</a
+                >
+              </h1>
+            </div>
+            <!-- NAVMENU -->
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item px-1">
+                <a href="/index.html" class="nav-link">
+                  HOME
+                </a>
+              </li>
+              <li class="nav-item px-1">
+                <a href="/AboutMe.html" class="nav-link text-center active" aria-current="page">ABOUT ME</a>
+              </li>
+              <li class="nav-item px-1 dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="Projects.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >PROJECTS</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="Project1.html">Project 1</a></li>
+                  <li><a class="dropdown-item" href="#">Project 2</a></li>
+                  <li><a class="dropdown-item" href="#">Project 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-1">
+                <a href="Contact.html" class="nav-link"> CONTACT </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <!-- MAIN CONTENT -->
-    <main>
-      <div class="container-fluid text-light" id="MainSection">
-        <section>
+    <div class="container-fluid" id="main">
+      <section id="introduction">
+        <div class="">
           <div class="row">
-            <div class="col-4">.col-4 TEST</div>
-            <div class="col-4">.col-4 TEST</div>
-            <div class="col-4">.col-4 TEST</div>
+            <div class="col-6 help">help</div> 
+            <div class="col-6 help">me</div> 
           </div>
-          <div class="row">
-            <div class="col">.col test</div>
-            <div class="col">.col test2</div>
-            <div class="col">.col test3</div>
-            <div class="col">.col test4</div>
-          </div>
-        </section>
-      </div>
-    </main>
+        </div>
+      </section>
+    </div>
     <!--FOOTER-->
-    <footer>
+    <div id="footer" style="font: Monserrat; font-weight: 300; width: 100vw;">
       <!-- NAVBAR -->
-      <div class="container-fluid bg-dark text-center text-white">
-        <ul
-          class="nav navbar-expand-sm justify-content-center border-bottom py-3 mb-3"
-        >
-          <li class="nav-item">
-            <a href="/index.html" class="nav-link px-2 text-light"
-              ><u>Home</u></a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="/AboutMe.html" class="nav-link px-2 text-light"
-              ><u>About Me</u></a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="/Projects.html" class="nav-link px-2 text-light"
-              ><u>Projects</u></a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="/Contact.html" class="nav-link px-2 text-light"
-              ><u>Contact</u></a
-            >
-          </li>
-        </ul>
-        <!-- ICONS -->
-        <div class="container py-2">
-          <section class="mb-4">
-            <a
-              class="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a
-              class="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a
-              class="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a
-              class="btn btn-outline-light btn-floating m-1"
-              href="#!"
-              role="button"
-              ><i class="fab fa-slack"></i
-            ></a>
-          </section>
+      <div class="container-fluid text-center text-white main-colour px-0">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer-navbar">
+              <ul
+                class="nav navbar-expand-sm justify-content-center border-bottom"
+              >
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link px-2 text-light"><u>Home</u></a>
+                </li>
+                <li class="nav-item">
+                  <a href="/AboutMe.html" class="nav-link px-2 text-light"
+                    ><u>About Me</u></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="Projects.html" class="nav-link px-2 text-light"
+                    ><u>Projects</u></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="Contact.html" class="nav-link px-2 text-light"
+                    ><u>Contact</u></a
+                  >
+                </li>
+              </ul>
+              <!-- ICONS -->
+              <div class="container-fluid pt-3">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <section class="mb-4">
+                      <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                      <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-linkedin-in"></i
+                      ></a>
+                      <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-slack"></i
+                      ></a>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
-
+    </div>
     <!-- JS for bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

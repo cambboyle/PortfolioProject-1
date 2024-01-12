@@ -44,6 +44,10 @@ My target audience for this project is potential clients/employers.
 - CSS
 - Github
 - Miro
+- VS Code
+- CodeAnywhere
+- Bootstrap 5
+- MDBootstrap
 
 ## PROJECT VISUALS
 
@@ -76,3 +80,5 @@ extra notes and methods - <https://www.w3schools.com>
 bootstrap notes - <https://getbootstrap.com>
 
 material design for bootstrap - <https://mdbootstrap.com>
+
+colour matching/palette design - <https://www.realtimecolors.com>

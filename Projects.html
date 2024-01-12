@@ -4,16 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Cameron Boyle</title>
-    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- BS5 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <!-- Google Fonts -->
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
     <script
@@ -21,134 +24,152 @@
       crossorigin="anonymous"
     ></script>
   </head>
-
   <!-- BODY -->
   <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-fixed-top navbar-expand-sm bg-dark navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html" style="padding-left: 50px">
-          <img
-            src="/assets/images/cameronimage.jpg"
-            alt="cameron boyle"
-            style="width: 100px"
-            class="rounded-pill"
-          />
-          CAMERON BOYLE
-        </a>
-      </div>
-      <div
-        class="collapse navbar-collapse"
-        id="collapsibleNavbar"
-        style="padding-right: 50px; font-size: 20px"
-      >
-        <ul class="navbar-nav ms-auto navbar-right">
-          <li class="nav-item px-1">
-            <a href="/index.html" class="nav-link"> HOME </a>
-          </li>
-          <li class="nav-item px-1">
-            <a href="/AboutMe.html" class="nav-link text-center"> ABOUT ME </a>
-          </li>
-          <li class="nav-item px-1 dropdown">
-            <a
-              class="nav-link dropdown-toggle active"
-              href="/Projects.html"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-              >PROJECTS</a
-            >
-            <ul
-              class="dropdown-menu dropdown-menu-end"
-              aria-labelledby="navbarDropdown"
-            >
-              <li><a class="dropdown-item" href="#">Project 1</a></li>
-              <li><a class="dropdown-item" href="#">Project 2</a></li>
-              <li><a class="dropdown-item" href="#">Project 3</a></li>
-            </ul>
-          </li>
-          <li class="nav-item px-1">
-            <a href="/Contact.html" class="nav-link"> CONTACT </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- MAIN -->
-
-    <main class="container-fluid text-light" style="background-color: #545454">
-      <div class="row">
-        <div class="col-4">.col-4 TEST</div>
-        <div class="col-4">.col-4 TEST</div>
-        <div class="col-4">.col-4 TEST</div>
-      </div>
-    </main>
-
-    <!--FOOTER-->
-    <footer
-      class="bg-dark text-center text-white"
-      style="
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: rgb(80, 66, 66);
-        color: white;
-        text-align: center;
-      "
-    >
+    <!-- HEADER -->
+    <header class="container-fluid" id="header">
       <!-- NAVBAR -->
-      <ul class="nav justify-content-center border-bottom py-3 mb-3">
-        <li class="nav-item">
-          <a href="#" class="nav-link px- text-light"><u>Home</u></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-light"><u>About Me</u></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-light"><u>Projects</u></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link px-2 text-light"><u>Contact</u></a>
-        </li>
-      </ul>
-
-      <!-- ICONS -->
-      <div class="container py-2">
-        <section class="mb-4">
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-twitter"></i
-          ></a>
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-github"></i
-          ></a>
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-slack"></i
-          ></a>
-        </section>
+      <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand main-colour navbar-dark px-4">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img
+                class="img-fluid rounded-pill d-inline-block align-text-center"
+                src="/assets/images/cameronimage.jpg"
+                alt="Cameron Boyle"
+                style="width: 100px"
+              />
+            </a>
+            <div style="justify-content: center;">
+              <h1>
+                <a
+                  class="navbar-brand d-none d-sm-block"
+                  href="index.html"
+                  style="
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 200;
+                    font-size: 30px;
+                  "
+                >
+                  <strong>Cameron</strong> Boyle</a
+                >
+              </h1>
+            </div>
+            <!-- NAVMENU -->
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item px-1">
+                <a href="/index.html" class="nav-link">
+                  HOME
+                </a>
+              </li>
+              <li class="nav-item px-1">
+                <a href="/AboutMe.html" class="nav-link text-center">ABOUT ME</a>
+              </li>
+              <li class="nav-item px-1 dropdown">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="Projects.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  aria-current="page"
+                  >PROJECTS</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="Project1.html">Project 1</a></li>
+                  <li><a class="dropdown-item" href="#">Project 2</a></li>
+                  <li><a class="dropdown-item" href="#">Project 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item px-1">
+                <a href="Contact.html" class="nav-link"> CONTACT </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <!-- COPYRIGHT -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2023 Copyright:
-        <a class="text-white" href="#">cambboyle.com</a>
+    </header>
+    <!-- MAIN CONTENT -->
+    <div class="container-fluid" id="main">
+      <section id="introduction">
+        <div class="">
+          <div class="row">
+            <div class="col-6 help">help</div> 
+            <div class="col-6 help">me</div> 
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--FOOTER-->
+    <div id="footer" style="font: Monserrat; font-weight: 300; width: 100vw;">
+      <!-- NAVBAR -->
+      <div class="container-fluid text-center text-white main-colour px-0">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="footer-navbar">
+              <ul
+                class="nav navbar-expand-sm justify-content-center border-bottom"
+              >
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link px-2 text-light"><u>Home</u></a>
+                </li>
+                <li class="nav-item">
+                  <a href="/AboutMe.html" class="nav-link px-2 text-light"
+                    ><u>About Me</u></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="Projects.html" class="nav-link px-2 text-light"
+                    ><u>Projects</u></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="Contact.html" class="nav-link px-2 text-light"
+                    ><u>Contact</u></a
+                  >
+                </li>
+              </ul>
+              <!-- ICONS -->
+              <div class="container-fluid pt-3">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <section class="mb-4">
+                      <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-twitter"></i
+                      ></a>
+                      <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-linkedin-in"></i
+                      ></a>
+                      <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a
+                        class="btn btn-outline-light btn-floating m-1"
+                        href="#!"
+                        role="button"
+                        ><i class="fab fa-slack"></i
+                      ></a>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-
+    </div>
     <!-- JS for bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

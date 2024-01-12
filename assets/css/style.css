@@ -1,14 +1,23 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: "Montserrat";
     font-weight: 700;
     padding-top: 70px;
     overflow-x: hidden;
+    background-color: #a18a75;
 }
 
 /* Colours */
 
 .main-colour {
-    background-color: #8d7865;
+    background-color: #553f2f;
 }
 
  /* Main Structure */
@@ -18,9 +27,8 @@ body {
     justify-content: center;
     flex-direction: column;
     margin-top: 40px;
-    height: 100vh;
     width: 100vw;
-    background-color: rgb(201, 72, 115);
+    background-color: rgb(109, 95, 83);
     text-align: center;
 }
 
@@ -29,12 +37,37 @@ body {
     text-align:center;
 }
 
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
 /* Header Elements */
 
 /* Main Elements */
     
     /* Home Page */
 
+#introduction {
+    padding-top: 4rem;
+    background-color: #a18a75;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color:#433e52;
+    color: white;
+    height: 100vh;
+}
+
+.text-box-intro {
+    padding-right: 1rem;
+    background-color: #8d7660 ;
+}
+
+.intro-text {
+    text-align: left;
+}
     /* About Me Page */
 
     /* Projects */
@@ -45,7 +78,16 @@ body {
 
 /* Misc */
 
-.help {
-    background-color: black;
-    color: beige;
- }
+/* Media Qs */
+
+@media (max-width: 1034px) {
+    body {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 440px) {
+    body {
+        padding-top: 55px;
+    }
+}
