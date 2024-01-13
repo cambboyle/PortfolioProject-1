@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Cameron Boyle</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
     <!-- BS5 -->
@@ -25,7 +25,7 @@
     ></script>
   </head>
   <!-- BODY -->
-  <body>
+  <body class="gx-0">
     <!-- HEADER -->
     <header class="container-fluid" id="header">
       <!-- NAVBAR -->
@@ -56,14 +56,14 @@
               </h1>
             </div>
             <!-- NAVMENU -->
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" style="font-size: 1.2rem;">
               <li class="nav-item px-1">
-                <a href="/index.html" class="nav-link">
+                <a href="/index.html" class="nav-link" style="color: #b9b72fde;">
                   HOME
                 </a>
               </li>
               <li class="nav-item px-1">
-                <a href="/AboutMe.html" class="nav-link text-center">ABOUT ME</a>
+                <a href="/AboutMe.html" class="nav-link text-center" style="color: #b9b72fde;">ABOUT ME</a>
               </li>
               <li class="nav-item px-1 dropdown">
                 <a
@@ -72,20 +72,25 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-                  aria-current="page"
+                  aria-current="page" 
+                  style="color: #eeff00de;"
                   >PROJECTS</a
                 >
                 <ul
                   class="dropdown-menu dropdown-menu-end"
                   aria-labelledby="navbarDropdown"
+                  style="background-color: black;"
                 >
-                  <li><a class="dropdown-item" href="Project1.html">Project 1</a></li>
-                  <li><a class="dropdown-item" href="#">Project 2</a></li>
-                  <li><a class="dropdown-item" href="#">Project 3</a></li>
+                  <li><a class="dropdown-item" href="Project1.html" style="color: #b9b72fde;">Project 1</a></li>
+                  <li><a class="dropdown-item disabled" href="#" style="color: #3f3f3f;">Project 2</a></li>
+                  <li><a class="dropdown-item disabled" href="#" style="color: #3f3f3f;">Project 3</a></li>
                 </ul>
               </li>
               <li class="nav-item px-1">
-                <a href="Contact.html" class="nav-link"> CONTACT </a>
+                <a href="CV.html" class="nav-link text-center" style="color: #b9b72fde;">CV</a>
+              </li>
+              <li class="nav-item px-1">
+                <a href="Contact.html" class="nav-link" style="color: #b9b72fde;" > CONTACT </a>
               </li>
             </ul>
           </div>
@@ -93,15 +98,8 @@
       </div>
     </header>
     <!-- MAIN CONTENT -->
-    <div class="container-fluid" id="main">
-      <section id="introduction">
-        <div class="">
-          <div class="row">
-            <div class="col-6 help">help</div> 
-            <div class="col-6 help">me</div> 
-          </div>
-        </div>
-      </section>
+    <div class="container-fluid px-0 gx-0" id="main">
+      <section id="introduction"></section>
     </div>
     <!--FOOTER-->
     <div id="footer" style="font: Monserrat; font-weight: 300; width: 100vw;">
@@ -127,6 +125,11 @@
                   >
                 </li>
                 <li class="nav-item">
+                  <a href="CV.html" class="nav-link px-2 text-light"
+                    ><u>CV</u></a
+                  >
+                </li>
+                <li class="nav-item">
                   <a href="Contact.html" class="nav-link px-2 text-light"
                     ><u>Contact</u></a
                   >
@@ -139,25 +142,29 @@
                     <section class="mb-4">
                       <a
                         class="btn btn-outline-light btn-floating m-1"
-                        href="#!"
+                        href="https://twitter.com/cambboyle"
+                        target="_blank"
                         role="button"
                         ><i class="fab fa-twitter"></i
                       ></a>
                       <a
                         class="btn btn-outline-light btn-floating m-1"
-                        href="#!"
+                        href="https://www.linkedin.com/in/cameron-boyle-782069167/"
                         role="button"
+                        target="_blank"
                         ><i class="fab fa-linkedin-in"></i
                       ></a>
                       <a
                         class="btn btn-outline-light btn-floating m-1"
-                        href="#!"
+                        href="https://github.com/cambboyle"
+                        target="_blank"
                         role="button"
                         ><i class="fab fa-github"></i
                       ></a>
                       <a
                         class="btn btn-outline-light btn-floating m-1"
-                        href="#!"
+                        href="https://join.slack.com/t/cameronstestingspace/shared_invite/zt-2aoylym0x-fXadavjhRHx2CTm4euoa6w"
+                        target="_blank"
                         role="button"
                         ><i class="fab fa-slack"></i
                       ></a>

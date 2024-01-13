@@ -45,6 +45,8 @@ body {
 
 /* Header Elements */
 
+
+
 /* Main Elements */
     
     /* Home Page */
@@ -65,7 +67,7 @@ body {
 .text-box-intro {
     padding-right: 1rem;
     background-color: #000000 ;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .intro-text {
