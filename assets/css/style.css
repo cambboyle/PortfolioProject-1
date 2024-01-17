@@ -49,7 +49,6 @@ body {
 /* Header Elements */
 
 
-
 /* Main Elements */
     
     /* Home Page */
@@ -86,21 +85,102 @@ body {
 
 /* Misc */
 
+/* Animations */
+
+    /* Navbar animations */
+        a.nav-text {
+            color: #000;
+            position: relative;
+            text-decoration: none;
+        }
+        
+        /* per page */
+        .home_page a.nav-text::before {
+            background: #4d3016;
+            content: "";
+            inset: 0;
+            position: absolute;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s ease-in-out;
+            z-index: -1;
+        }
+
+        .about_me a.nav-text::before {
+            background: #182c42;
+            content: "";
+            inset: 0;
+            position: absolute;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s ease-in-out;
+            z-index: -1;
+        }
+
+        .contact a.nav-text::before {
+            background: #1d3d1f;
+            content: "";
+            inset: 0;
+            position: absolute;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s ease-in-out;
+            z-index: -1;
+        }
+
+        .projects a.nav-text::before {
+            background: #431947;
+            content: "";
+            inset: 0;
+            position: absolute;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s ease-in-out;
+            z-index: -1;
+        }
+
+        .project1 a.nav-text::before {
+            background: #3d1818;
+            content: "";
+            inset: 0;
+            position: absolute;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s ease-in-out;
+            z-index: -1;
+        }
+
+        .CV a.nav-text::before {
+            background: #525355;
+            content: "";
+            inset: 0;
+            position: absolute;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s ease-in-out;
+            z-index: -1;
+        }
+        
+        a.nav-text:hover::before {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
 /* Media Qs */
 
 /* Was using these to test some queries, keeping them incase of breakages */
 
-/* @media (max-width: 1034px) {
-    body {
-        padding-top: 70px;
-    }
-}
+        /* @media (max-width: 1034px) {
+            body {
+                padding-top: 70px;
+            }
+        }
 
-@media (max-width: 440px) {
-    body {
-        padding-top: 55px;
-    }
-} */
+        @media (max-width: 440px) {
+            body {
+                padding-top: 55px;
+            }
+        } */
 
 /* Used Bootstraps documentation for these media queries, added my own for 4K resolution and above */
 
