@@ -77,6 +77,34 @@ body {
 }
     /* About Me Page */
 
+        /* About & Details */
+
+    .about-list {
+        list-style-type: none;
+    }
+
+        /* skills */ 
+
+    .OuterBox {
+        width: 250px;
+        height: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 5px;
+        border-radius: 10px;
+        background: rgb(80, 79, 79);
+    }
+
+    .InnerBox {
+        height: 15px;
+        border-radius: 10px;
+        background: linear-gradient(45deg, #0c3f81, #569cf8);
+        animation: 4s ease-in-out forwards;
+
+    }
+
+        /* Interests */
+        
     /* Projects */
 
     /* Contact */
