@@ -255,20 +255,6 @@ body {
 
 /* Media Qs */
 
-/* Was using these to test some queries, keeping them incase of breakages */
-
-        /* @media (max-width: 1034px) {
-            body {
-                padding-top: 70px;
-            }
-        }
-
-        @media (max-width: 440px) {
-            body {
-                padding-top: 55px;
-            }
-        } */
-
 /* Used Bootstraps documentation for these media queries, added my own for 4K resolution and above */
 
 /* Small devices (landscape phones, 576px and up) */

@@ -61,11 +61,40 @@ Home Page
 About Me Page
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/About%20Me.png "About Me Wireframe")
 
+Resume Page
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/Resume%20Page.png "Resume Page Wireframe")
+
+Projects Page
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/Projects.png "Projects Page Wireframe")
+
+Contact Page
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/Contact%20Page.png "Contact Page Wireframe")
+
 #### Completed Project
 
-## DEPLOYMENT
+Home Page
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/HomePageFinal.png "Home Page Visual")
+
+About Me Page
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/AboutMeFinal.png "About Me Visual")
+
+Resume Page
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/ResumeFinal.png "Resume Page Visual")
+
+Projects Page
+![alt text]( "example")
+
+Contact Page
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/ContactFinal.png "Contact Page Visual")
+
+Project 1 Page
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/Project1Final.png "Project 1 Page Visual")
+
+## DEPLOYMENT & TESTING
 
 ----
+
+write here the process of deploying the site w/ any differences between development code and deployed code.
 
 ## KNOWN BUGS
 
@@ -80,7 +109,7 @@ icons - <https://fontawesome.com>
 
 extra notes and methods - <https://www.w3schools.com>
 
-bootstrap notes - <https://getbootstrap.com>
+bootstrap notes and media queries - <https://getbootstrap.com>
 
 material design for bootstrap - <https://mdbootstrap.com>
 
