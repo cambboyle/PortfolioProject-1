@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/8e3dab1261.js"
       crossorigin="anonymous"
@@ -97,7 +98,52 @@
     </header>
     <!-- MAIN CONTENT -->
     <div class="container-fluid px-0 gx-0" id="main">
-      <section id="introduction"></section>
+      <section id="introduction">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class=" row text-center text-box-intro shadow-sm p-3 mb-5 rounded">
+                <!-- LEFT PANEL -->
+                <div class="col-md-6 border-end">
+                  <div class="container py-4">
+                    <form class="contactForm">
+                      <!-- Name Input -->
+                      <div class="px-4" style="width: 70%; margin: auto;">
+                        <label for="fullname" style="padding: 5px;">Name</label>
+                        <input type="text" name="Name" id="fullname" class="form-control border-3" placeholder="John Smith" required/>
+                      </div>
+                        <!-- Email Input -->
+                      <div class="px-4" style="width: 70%; margin: auto;">
+                        <label for="email" style="padding: 5px;">Email</label>
+                        <input type="text" name="Email" id="email" class="form-control border-3" placeholder="name@example.com" required/>
+                      </div>
+                        <!-- Message Input -->
+                      <div class="px-4" style="width: 70%; margin: auto;">
+                        <label for="message" style="padding: 5px;">Message</label>
+                        <textarea rows="5" name="Message" id="message" class="form-control border-3" placeholder="type a message" required></textarea>
+                      </div>
+                        <!-- Submit Button -->
+                      <div class="form-row text-center">
+                        <div class="col">
+                          <button type="submit" class="btn text-light">Send</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- RIGHT PANEL -->
+                <div class="col-md-6">
+                  <div class="row">
+                    <h2>CONTACT ME</h2>
+                    <i class="fab fa-twitter"></i>
+                    <span style="font-weight: 400;">@cambboyle</span>
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <!--FOOTER-->
     <div id="footer" style="font: Monserrat; font-weight: 300; width: 100vw;">

@@ -109,6 +109,19 @@ body {
 
     /* Contact */
 
+        /* Contant Form */
+
+        button[type="submit"] {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-color: #1d3d1f;
+            border-color: #4ba351;
+        }
+
+        .contactForm .form-control{
+            background-color: #dcdfdb;
+            border-color: #1d3d1f;
+        }
     /* Resume Page */
 
     .center-text {
@@ -301,4 +314,15 @@ only screen and (min-device-pixel-ratio: 1.5){
       overflow-x:hidden;
     }
   
+  }
+
+  /* contact form Media (code institute)*/
+
+  @media(min-width: 992px) {
+    .contact-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
   }
