@@ -58,6 +58,9 @@ My target audience for this project is potential clients/employers.
 Home Page
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/HomePage.png "Home Page Wireframe")
 
+About Me Page
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/About%20Me.png "About Me Wireframe)
+
 #### Completed Project
 
 ## DEPLOYMENT
