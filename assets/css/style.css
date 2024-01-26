@@ -107,6 +107,50 @@ body {
         
     /* Projects */
 
+    .project-box {
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    /* From TutorialsPoint.com */
+    .placeholder-images {
+
+        filter: grayscale(100%);
+
+    }
+
+    .project-container {
+
+        position: relative;
+        display: inline-block;
+    
+    }
+
+    .project-container img {
+        
+        display: block;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .overlay-text {
+
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        background-color: #431947; 
+        opacity: 0.9;
+        color: #fff; 
+        padding: 10px 20px; 
+        font-size: 20px; 
+        text-align: center;
+    
+    }
+
         /*Project1 */
 
         .fullstop {

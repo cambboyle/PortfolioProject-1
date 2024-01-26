@@ -100,6 +100,10 @@ write here the process of deploying the site w/ any differences between developm
 
 ----
 
+Kept having issue with row in main content of Resume, Contact and About Me pages. Fixed bug by adding Margin: Auto to the effected columns.
+
+As I am unexperienced in JS at this point. The email contact form doesn't have a use, and I am not a fan of using mailto because it interrupts the user's experience on the site if they are directed to their default mail app.
+
 ## CREDITS
 
 ----
@@ -115,4 +119,8 @@ material design for bootstrap - <https://mdbootstrap.com>
 
 colour matching/palette design - <https://www.realtimecolors.com>
 
+Portfolio Images (royalty free) - <https://unsplash.com/s/photos/portfolio>
 
+Grayscale CSS - <https://www.tutorialspoint.com/how-to-create-a-black-and-white-image-using-css#:~:text=By%20specifying%20grayscale%20value%20to,%2C%20drop-shadow%20to%20images.>
+
+Email Send Form help <https://mailtrap.io/blog/html-form-send-email/>
