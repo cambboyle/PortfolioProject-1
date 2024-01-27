@@ -26,6 +26,7 @@ Built using **HTML** and **CSS**.
 
 ----
 
+#### Project Goals
 My target audience for this project is potential clients/employers.
 
 #### User Goals
@@ -33,6 +34,8 @@ My target audience for this project is potential clients/employers.
 - Easy site navigation with large buttons, easy-to-read colours and fonts.
 - Locate completed projects
 - Be able to contact me directly from the site by email or by using the links in the footer to my social media accounts.
+
+#### Design Choices
 
 ## FEATURES
 
@@ -82,7 +85,7 @@ Resume Page
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/ResumeFinal.png "Resume Page Visual")
 
 Projects Page
-![alt text]( "example")
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/ProjectsFinal.jpg "Projects Page")
 
 Contact Page
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/ContactFinal.png "Contact Page Visual")
@@ -94,7 +97,11 @@ Project 1 Page
 
 ----
 
-write here the process of deploying the site w/ any differences between development code and deployed code.
+#### Testing
+
+#### Deployment
+
+*write here the process of deploying the site w/ any differences between development code and deployed code.*
 
 ## KNOWN BUGS
 
