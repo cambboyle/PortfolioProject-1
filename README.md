@@ -8,7 +8,6 @@ Cameron's Portfolio
 
 - [OVERVIEW](#overview)
 - [UX](#ux)
-    - [User Goals](#user-goals)
 - [FEATURES](#features)
 - [TECH](#tech)
 - [PROJECT VISUALS](#project-visuals)
