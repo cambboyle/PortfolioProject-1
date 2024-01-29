@@ -182,6 +182,22 @@ Project 1 Page
     A fix for this would be to add a "mailto:" to the form or set up PHP, my issue with mailto is that it breaks the UX by opening up the viewers default email application. This in my opinion is bad UX design as it takes focus away from the site. I also am yet to learn PHP but when I do learn, I will be adding it to the site to make a fully functional form.
   EDIT: Added the CodeInstitute default formdump to my contact form, this is something I forgot about until going back through the form lessons on the course to see if there was anything I could do.
 
+#### Test 3 - Phone screen sizing
+
+- Expected:
+    Phone size is responsive and looks good.
+
+- Testing:
+    Open site on my phone and use as intended.
+
+- Result:
+    Page works fantastic and no noticable errors.
+
+    Images -
+      ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/MobileHome.jpg "Home page on Mobile")
+      ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/MobileContact.jpg "Contact page on Mobile")
+      ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/MobileProjects.jpg "Projects page on Mobile")
+
 ### BUGS
 
 ----
@@ -198,8 +214,6 @@ Contact Form would refresh page and not send email. I fixed this by adding `acti
 ### Deployment
 
 ----
-
-*write here the process of deploying the site w/ any differences between development code and deployed code.*
 
 This project was developed using CodeAnywhere and VSCode, I switched to VSCode midway because I was consistently getting issues with CodeAnywhere and struggling with load times. Then the project was commited to git and pushed to GitHub.
 
