@@ -61,7 +61,7 @@ body {
     color:#433e52;
     color: white;
     height: auto;
-    background-image: url(assets/images/CameronReading.jpg);
+    background-image: url(../images/CameronReading.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
