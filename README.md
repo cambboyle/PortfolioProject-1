@@ -28,6 +28,16 @@ Built using **HTML** and **CSS**.
 
 ----
 
+#### User Stories
+
+*Employer/Client*
+
+- As a possible future employer/client, I want to be able to:
+  1. Visit the portfolio site through a link from another website i.e. LinkedIn.
+  2. Explore the site so I can get to know Cameron and browse his past or ongoing projects.
+  3. (Employer) Access his CV with ease.
+  4. Be able to contact him via email, or through social links on the page.
+
 #### Project Goals
 
 My main goal for this project was to create a intuitive and responsive portfolio that I can use for my career after the project has been submitted. 
