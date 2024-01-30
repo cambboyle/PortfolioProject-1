@@ -392,3 +392,12 @@ only screen and (min-device-pixel-ratio: 1.5){
         max-width: 70%;
     }
   }
+
+  /* additional contact form media q */
+
+  @media(max-width:400px) {
+    .input-forms {
+        justify-content: center;
+        padding: 0px;
+    }
+  }

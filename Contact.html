@@ -105,24 +105,25 @@
               <div class="row text-center text-box-intro shadow-sm p-3 mb-5 rounded" style="margin: auto;">
                 <!-- LEFT PANEL -->
                 <div class="col-md-6">
-                  <div class="container py-4">
+                  <div class="container py-4 px-1">
                     <h3> EMAIL ME </h3>
                     <div>
                       <span style="font-weight: 300;">Send me an email to start networking.</span>
                     </div>
-                    <form class="contactForm" method="post" action="https://formdump.codeinstitute.net">
+                    <form class="contactForm needs-validation justify-content-center" method="post" action="https://formdump.codeinstitute.net">
                       <!-- Name Input -->
-                      <div class="px-4" style="width: 70%; margin: auto;">
+                      <div class="px-2 input-forms">
                         <label for="fullname" style="padding: 5px;">Name</label>
                         <input type="text" name="Name" id="fullname" class="form-control border-3" placeholder="John Smith" required/>
                       </div>
                         <!-- Email Input -->
-                      <div class="px-4" style="width: 70%; margin: auto;">
+                      <div class="px-2 input-forms">
                         <label for="email" style="padding: 5px;">Email</label>
-                        <input type="text" name="Email" id="email" class="form-control border-3" placeholder="name@example.com" required/>
+                        <input type="email" name="Email" id="email" class="form-control border-3" placeholder="name@example.com" required/>
+                        <div class="invalid-feedback">Please provide a valid email address.</div>
                       </div>
                         <!-- Message Input -->
-                      <div class="px-4" style="width: 70%; margin: auto;">
+                      <div class="px-2 input-forms">
                         <label for="message" style="padding: 5px;">Message</label>
                         <textarea rows="5" name="Message" id="message" class="form-control border-3" placeholder="type a message" required></textarea>
                       </div>
