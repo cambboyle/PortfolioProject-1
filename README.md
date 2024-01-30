@@ -1,17 +1,19 @@
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/AmIResponsive.png "AmIResponsive Image")
+
+
+
 <!-- omit in toc -->
 Cameron's Portfolio
 ======
 
 - [OVERVIEW](#overview)
 - [UX](#ux)
-    - [User Goals](#user-goals)
 - [FEATURES](#features)
 - [TECH](#tech)
 - [PROJECT VISUALS](#project-visuals)
     - [Wireframes](#wireframes)
     - [Completed Project](#completed-project)
-- [DEPLOYMENT](#deployment)
-- [KNOWN BUGS](#known-bugs)
+- [DEPLOYMENT](#deployment-and-testing)
 - [CREDITS](#credits)
 
 ## OVERVIEW
@@ -25,6 +27,16 @@ Built using **HTML** and **CSS**.
 ## UX
 
 ----
+
+#### User Stories
+
+*Employer/Client*
+
+- As a possible future employer/client, I want to be able to:
+  1. Visit the portfolio site through a link from another website i.e. LinkedIn.
+  2. Explore the site so I can get to know Cameron and browse his past or ongoing projects.
+  3. (Employer) Access his CV with ease.
+  4. Be able to contact him via email, or through social links on the page.
 
 #### Project Goals
 
@@ -102,63 +114,160 @@ The overall design of the website was made to 1. Be easy to navigate for employe
 These Wireframes were created using the Miro App, I opted to use this over Balsamiq as I have experience using Miro.
 
 Home Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/HomePage.png "Home Page Wireframe")
 
 About Me Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/About%20Me.png "About Me Wireframe")
 
 Resume Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/Resume%20Page.png "Resume Page Wireframe")
 
 Projects Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/Projects.png "Projects Page Wireframe")
 
 Contact Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/Contact%20Page.png "Contact Page Wireframe")
 
 ### Completed Project
 
 Home Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/HomePageFinal.png "Home Page Visual")
 
 About Me Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/AboutMeFinal.png "About Me Visual")
 
 Resume Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/ResumeFinal.png "Resume Page Visual")
 
 Projects Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/ProjectsFinal.jpg "Projects Page")
 
 Contact Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/ContactFinal.png "Contact Page Visual")
 
 Project 1 Page
+
 ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/Project1Final.png "Project 1 Page Visual")
 
-## DEPLOYMENT & TESTING
+## DEPLOYMENT AND TESTING
 
 ----
 
-#### Testing
-
-*write here how I tested the site on various browsers, screen sizes and devices. As well as asking my girlfriend and family members to navgiate the site and provide feedback from their devices*
-
-
-
-#### Deployment
-
-*write here the process of deploying the site w/ any differences between development code and deployed code.*
-
-
-
-## KNOWN BUGS
+### Testing
 
 ----
+
+#### Test 1 - Navigate and cycle through site pages.
+
+- Expected:
+    Open site, click link in navbar to other pages, create a full loop of navigating from landing page -> about me -> projects -> contact.
+
+- Test:
+    Followed steps as above.
+
+- Result:
+    The site acted as expected, no breaks and was able to follow path specified and more.
+
+#### Test 2 - Successful contact form.
+
+- Expected: Fill out contact form which sends email.
+
+- Test:
+    Filled out form and clicked send.
+
+- Result:
+  Page gets refreshed and no email sent.
+
+- Fix:
+    A fix for this would be to add a "mailto:" to the form or set up PHP, my issue with mailto is that it breaks the UX by opening up the viewers default email application. This in my opinion is bad UX design as it takes focus away from the site. I also am yet to learn PHP but when I do learn, I will be adding it to the site to make a fully functional form.
+  EDIT: Added the CodeInstitute default formdump to my contact form, this is something I forgot about until going back through the form lessons on the course to see if there was anything I could do.
+
+#### Test 3 - Phone screen sizing
+
+- Expected:
+    Phone size is responsive and looks good.
+
+- Testing:
+    Open site on my phone and use as intended.
+
+- Result:
+    Page works fantastic and no noticable errors.
+
+    Images -
+      ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/MobileHome.jpg "Home page on Mobile")
+      ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/MobileContact.jpg "Contact page on Mobile")
+      ![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/MobileProjects.jpg "Projects page on Mobile")
+
+### BUGS
+
+----
+
+#### Solved Bugs
 
 Kept having issue with row in main content of Resume, Contact and About Me pages. Fixed bug by adding Margin: Auto to the effected columns.
 
-As I am unexperienced in JS at this point. The email contact form doesn't have a use, and I am not a fan of using mailto because it interrupts the user's experience on the site if they are directed to their default mail app.
+Ran into a bug/error during my deployment phase, where I had added a "/" infront of image urls, github pages ignores them. I had to run through all code for images and links that included these and remvoed them.
+
+Contact Form would refresh page and not send email. I fixed this by adding `action=""` and `method=""` to the forms html and setting the action as the default CodeInstitute FormDump.
+
+
+### Deployment
+
+----
+
+This project was developed using CodeAnywhere and VSCode, I switched to VSCode midway because I was consistently getting issues with CodeAnywhere and struggling with load times. Then the project was commited to git and pushed to GitHub.
+
+I deployed the page to GitHub pages from my repository. These were the steps taken to do so:
+
+1. Logged into GitHub.
+2. Selected **cambboyle/PortfolioProject-1** from the list of repositories.
+3. Clicked on the repo's settings.
+4. Scrolled down and selected the GitHub Pages tab.
+5. In the source dropdown, keep it as "Deploy from a branch", then select "Master" from the branch dropdown.
+6. Click Save, this should now start the build process for the site.
+
+The development branch and Master branch are completely identical.
+
+#### How to run this project locally in VSCode
+
+1. Follow this link to the [GitHub Repository](https://github.com/cambboyle/PortfolioProject-1).
+2. Click the green <> Code dropdown.
+3. Copy the HTTPS URL for the repository.
+4. In VSCode, open up the terminal.
+5. Change the directory to where you want the cloned directory to be stored.
+6. Type `git clone`, then the paste in the URL from the repo.
+7. Press enter in the terminal and the clone should be made.
+
+### Validation
+
+#### HTML
+
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/HTMLValidation.png "HTML Validation")
+
+#### CSS
+
+*Only errors shown are either bootstrap css or "vendor extension related"*
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/CSSValidation.png "CSS Validation")
+
+#### Lighthouse
+
+Desktop Result
+
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/LighthouseResultsDesktop.png "Lighthouse Desktop Results")
+
+Mobile Result
+
+![alt text](https://github.com/cambboyle/PortfolioProject-1/blob/main/assets/images/readme%20images/LighthouseResultsMobile.png "Lighthouse Mobile Results")
 
 ## CREDITS
 
@@ -180,3 +289,12 @@ Portfolio Images (royalty free) - <https://unsplash.com/s/photos/portfolio>
 Grayscale Images Filter CSS - <https://www.tutorialspoint.com/how-to-create-a-black-and-white-image-using-css#:~:text=By%20specifying%20grayscale%20value%20to,%2C%20drop-shadow%20to%20images.>
 
 Email Send Form help <https://mailtrap.io/blog/html-form-send-email/>
+
+### Validation Credits
+
+AmIResponsive - <https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev>
+
+HTML Validator - <https://validator.w3.org>
+
+CSS Validator - <https://jigsaw.w3.org/css-validator/>
+
