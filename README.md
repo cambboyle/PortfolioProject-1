@@ -36,8 +36,6 @@ Built using **HTML** and **CSS**.
 
 ## User Experience
 
-----
-
 ### User Stories
 
 #### User Goals
@@ -75,7 +73,7 @@ My target audience for this project is potential clients/employers.
 - A professional portfolio built only using HTML, CSS and Bootstrap5.
 - A project where I can keep updating it and expanding on it as my career progresses.
 
-## FEATURES
+## Features
 
 * Navigation bar
 
@@ -98,33 +96,45 @@ My target audience for this project is potential clients/employers.
 
 * About Me
 
-  about me text
+  - Section 1 includes basic information about me, and a small description of how I got into coding, and my personal goals.
+ 
+    ![AboutMeSection](https://github.com/cambboyle/PortfolioProject-1/assets/38697428/699831d5-4038-4737-95cc-ffa8f8d0a987)
 
-  **add about me images**
+  - Section 2 is about my skills, where I have made progress bars to keep track of where I think I am with certain languages/apps.
+ 
+    ![AboutMeSkills](https://github.com/cambboyle/PortfolioProject-1/assets/38697428/5edc756a-ee61-488b-8ba2-48aece4d10a4)
+
+  - Section 3 is a list of my interests outside of coding, to create potential ice-breakers with site viewers.
+ 
+    ![AboutMeInterests](https://github.com/cambboyle/PortfolioProject-1/assets/38697428/62d66363-22a8-4eff-9c0b-da68c186c698)
 
 * Projects
 
-  project text
+  - Fairly straightforward, contains a grid of clickable project button that takes you to each projects page.
 
-  **project images**
+    ![ProjectsGrid](https://github.com/cambboyle/PortfolioProject-1/assets/38697428/4fb2065d-369a-4283-adce-53caaf8d87af)
 
 * Project One
 
-  project one text
-
-  **project one images**
+  - Currently is just a placeholder.
+  - Contains "coming soon" text.
 
 * Resume
 
-  resume text
+  - Split into two sections;
+  - Left section contains a brief summary of myself, and my relavent education history.
+  - Right section contains space for my Professional Experience to go, I plan to fill this in when I get relavent experience.
 
-  **resume images**
+![ResumeSections](https://github.com/cambboyle/PortfolioProject-1/assets/38697428/60d4499a-6827-4a1d-9e33-0fdbf1957088)
 
 * Contact
 
-  contact text
-
-  **contact images**
+  - Contact page is also split into two sections.
+  - Left, email contact form. Currently links to a formdump but once I learn PHP I'd like to run it that way.
+  - Right, just some more contact information. I think it's greatly important to do this as much as possible to embed the information in the viewers mind.
+  
+![ContactForm](https://github.com/cambboyle/PortfolioProject-1/assets/38697428/c16e1857-2a49-460d-951e-b10b69e6ba45)
+![ContactInfo](https://github.com/cambboyle/PortfolioProject-1/assets/38697428/711986fd-1f72-4b31-a45d-289ab9518f56)
 
 ### Planned Features
 
@@ -240,12 +250,18 @@ Contact Page
 
 - HTML5
 - CSS3
-- Github
-- Miro
+
+### Frameworks, Libraries & Programs Used
+
 - VS Code
-- CodeAnywhere
+- Codeanywhere
+- Git
+- GitHub
+- Google Fonts
 - Bootstrap 5
-- MDBootstrap
+- MD Bootstrap
+- Am I Responsive
+- Miro
 
 ## Testing
 
@@ -410,8 +426,7 @@ CSS Validator - <https://jigsaw.w3.org/css-validator/>
 
 ## Acknowledgements
 
--
--
--
+- Mitko Bachvarov, my mentor who provided valuable feedback, a link to collapsable dropdown in markdown and telling me about file naming conventions & commit messages.
+- Members of my slack class for helping me solve some early on bugs.
 
 
